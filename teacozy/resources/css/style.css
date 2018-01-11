@@ -1,0 +1,147 @@
+/* General styling */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+h2, h3, h4, h5 {
+  padding: 10;
+  margin: 10;
+}
+
+/* I am having difficulty with determining how to control the spacing between
+texts in my code.  Would appreciate feedback on where I need to have code to
+match the sample */
+
+/* Header Section */
+
+header {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: underline;
+  margin-right: 20px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+/* Main Content */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+/* Looks like the sample does not use a column direction but utilizes wrap
+feature.  Was unable to replicate with decent results so please advise */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Mission Section */
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+.text {
+  background-color: black;
+  width: 100%;
+}
+
+/* Tea of the Month Section */
+
+#tea {
+  width: 1000px;
+  padding-top: 70px;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#tea img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.feature{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Location Section */
+
+#location {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+}
+
+.listing {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  margin: 0 20px;
+  background-color: black;
+}
+
+/* Contact Section */
+
+.contact {
+  height: 200px;
+}
+
+.contact h5 {
+
+}
+
+/* Footer Section */
+
+.footer {
+  text-align: left;
+  margin-left: 20px;
+}
